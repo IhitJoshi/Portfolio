@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Light mode styles */
+:root {
+  --highlight-color: #2563eb; /* Blue-600 for light mode */
+}
+
+/* Dark mode styles */
+.dark {
+  --highlight-color: #64ffda; /* Original teal for dark mode */
+}
+
+.light,
+html:not(.dark)  {
+    color: #3b82f6; /* Blue-500 in light mode */
+}
+
+.light-mode-whoami,
+html:not(.dark) .light-mode-whoami {
+    color: var(--highlight-color);
+}
+
+.dark .dark-mode-whoami,
+html.dark .dark-mode-whoami {
+    color: var(--highlight-color);
+}

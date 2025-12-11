@@ -1,0 +1,45 @@
+{
+  "name": "portfolio-recat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
+    "@tabler/icons-react": "^3.21.0",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.17",
+    "jsdom": "^26.1.0",
+    "lucide-react": "^0.468.0",
+    "motion": "^12.12.1",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-animated-cursor": "^2.11.2",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router": "^7.6.0",
+    "react-router-dom": "^7.0.2",
+    "react-terminal": "^1.4.5",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "daisyui": "^4.12.14",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  }
+}
