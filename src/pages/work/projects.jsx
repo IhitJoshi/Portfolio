@@ -7,16 +7,16 @@ const Projects = () => {
     const [selectedProject, setSelectedProject] = useState(null);
     const projects = [
         {
-            title: 'Quizzer',
+            title: 'My Story',
             image: 'assets/quizzer.png',
-            description: `Ai powered quiz microservice application that generates quizzes based on user-defined topics and difficulty levels.`,
+            description: `A personal space where I express my stories through dramatic pacing, cliffhangers, and immersive transitions, turning each narrative into a memorable experience.`,
             points: [
-                `Developed a backend only Typescript Node.js microservice to generate quizzes using Groq and Gemini AI.`,
-                `Implemented production-grade practices and architecture, including MongoDB aggregation, rate limiting,
-and pagination.`,
-                ` Adaptive Learning Experience with real time difficulty adjustment based on user performance.`,
-                `Leaderboards & Analytics to track user performance and foster competition.`,
-            ],
+                `Created a personal storytelling website to narrate meaningful experiences with immersive pacing and atmospheric transitions.`,
+                `Designed a narrative flow using cliffhangers, dramatic pauses, and smooth UI animations to enhance emotional engagement.`,
+                `Implemented a dynamic content structure that reveals story segments progressively, increasing tension and reader curiosity.`,
+                `Focused on cinematic storytelling—combining visuals, silence, and mood shifts to deliver impactful, thought-provoking narratives.`,
+            ]
+,
             technology: [
                 'TypeScript',
                 'Node.js',

@@ -4,34 +4,32 @@ import { Timeline } from "../../components/index.js"
 function Experience() {
     const experiences = [
         {
-            role: "Tech Expert",
-            name: "GDGC BVM",
-            logo: "/assets/gdg.png",
-            link: "https://gdg.community.dev/gdg-on-campus-birla-vishvakarma-mahavidyalaya-engineering-college-anand-india",
+            role: "Web Intern",
+            name: "Ediglobe",
+            logo: "/assets/Ediglobe.webp",
+            link: "https://www.ediglobe.com/",
             description: [
-                "Google Developer Groups on Campus at Birla Vishwakarma Mahavidyalaya",
-                "Built and deployed the official GDG BVM website using React.js",
-                "Hosted 5+ tech sessions and workshops on tools and platforms including Git & GitHub, Figma, Azure, and AI\n" +
-                "in 30 Days Code Jam.",
+                "Spent 2 months learning and strengthening core web development skills including HTML, CSS, JavaScript, and React.",
+                "Joined Ediglobe as a Web Intern and contributed to real-world development tasks and UI improvements.",
+                "Currently working on building CMIS, a student management portal aimed at streamlining data handling and academic workflows."
             ],
-            startDate: "Sep '24",
-            endDate: "Present",
-            duration: null,
+            startDate: "May '25",
+            endDate: "July '25",
+            duration: "2 Months",
         },
         {
-            role: "SDE Intern",
-            name: "PassDN",
-            logo: "/assets/passdn.jpg",
-            link: "https://passdn.com",
+            role: "Campus Ambassador",
+            name: "InternsElite",
+            logo: "/assets/internselite.jpeg",
+            link: "https://internselite.net/",
             description: [
-                "PassDN is a platform that provide   services like rides , foods , grocery and tickets base on ONDC",
-                "Developed backend features using Node.js, Express.js, and MongoDB",
-                "Designed payload structures and API routes for the ONDC Mobility module.",
-                "Collaborated with the team via Slack; worked on tasks assigned through Jira",
+                "Represented InternsElite as a Campus Ambassador and promoted the organization’s programs and opportunities to students.",
+                "Actively engaged with peers, managed outreach activities, and encouraged student participation in InternsElite initiatives.",
+                "Helped bridge communication between the company and campus, increasing awareness and involvement through consistent updates and interactions."
             ],
-            startDate: "Jun",
-            endDate: "July '24",
-            duration: "2 months",
+            startDate: "Nov '24",
+            endDate: "Present",
+            duration: null,
         },
     ]
 
