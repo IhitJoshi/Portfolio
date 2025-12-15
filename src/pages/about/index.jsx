@@ -14,10 +14,10 @@ export const About = () => {
   return (
       <>
         <Intro />
-        <Education /> 
+        {/* <Education />  */}
         <Skills/>
         <Achievements/>
-        <Profiles/>
+        {/* <Profiles/> */}
       </>
   );
 };

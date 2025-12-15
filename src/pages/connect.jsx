@@ -6,28 +6,28 @@ const Connect = () => {
     const socialLinks = [{
         name: 'GitHub',
         icon: <IconBrandGithub className="w-8 h-8 "/>,
-        url: 'https://github.com/jaiminpatel345',
+        url: 'https://github.com/IhitJoshi',
     }, {
         name: 'LinkedIn',
         icon: <IconBrandLinkedin className="w-8 h-8"/>,
-        url: 'https://www.linkedin.com/in/jaimindetroja345',
+        url: 'https://www.linkedin.com/in/ihit-joshi-a82859300/',
     }];
 
     const contactInfo = [{
         name: 'Email',
         icon: <Mail className="w-6 h-6"/>,
-        link: 'mailto:officialjaimin345@gmail.com',
-        value: 'officialjaimin345@gmail.com'
+        link: 'mailto:joshiihitc@gmail.com',
+        value: 'joshiihitc@gmail.com'
     }, {
         name: 'Phone',
         icon: <Phone className="w-6 h-6"/>,
-        link: 'tel:+918511633118',
-        value: '+91 8511633118'
+        link: 'tel:+916353793054',
+        value: '+91 6353793054'
     },
         {
             name: 'Resume',
             icon: <IconFileDescription className="w-6 h-6"/>,
-            link: 'https://drive.google.com/file/d/19nkTVuaXvF7YW6bcV8OEx5Vj3sd1suzq/view?usp=drive_link',
+            link: '',
             value: 'My Resume'
         }
     ];

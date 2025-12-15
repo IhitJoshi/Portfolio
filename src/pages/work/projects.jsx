@@ -8,7 +8,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'My Story',
-            image: 'assets/quizzer.png',
+            image: 'assets/MyStory.png',
             description: `A personal space where I express my stories through dramatic pacing, cliffhangers, and immersive transitions, turning each narrative into a memorable experience.`,
             points: [
                 `Created a personal storytelling website to narrate meaningful experiences with immersive pacing and atmospheric transitions.`,
@@ -18,182 +18,239 @@ const Projects = () => {
             ]
 ,
             technology: [
-                'TypeScript',
-                'Node.js',
-                'Express.js',
-                'MongoDB',
-                'JWT',
-                'Docker',
-                'Azure',
+                'React',
+                'TailwindCSS',
+                'Framer Motion',
+                'JavaScript',
+                'GSAP',
+                'HTML',
+                'CSS',
+            ],
+
+            time: 'Nov 2025',
+
+            github: 'https://github.com/IhitJoshi/MyStory',
+            live: '',
+        },
+        {
+            title: 'Stock Engine',
+            image: 'assets/StockEngine.png',
+            description: `Stock-specific dynamic search engine`,
+            points: [
+                'Developed a stock-specific search engine enabling users to quickly find companies using dynamic, real-time search.',
+                'Integrated interactive stock charts with multiple timeframes including 1D, 5D, 1M, 6M, and 1Y for detailed market analysis.',
+                'Displayed live stock insights such as price movement, volume, highs/lows, and percentage changes using real-time data fetching.',
+                'Designed a clean and responsive UI to offer a seamless and fast stock exploration experience.',
+            ],
+            technology: [
+                'React',
+                'Python',
+                'Flask',
+                'TailwindCSS',
+                'Chart.js',
+                'JavaScript',
+                'API Integration',
+                'Git',
             ],
             time: 'Sept 2025',
-            github: 'https://github.com/JaiminPatel345/quizzer',
+            github: 'https://github.com/IhitJoshi/Search_Engine',
         },
-        {
-            title: 'FACE ANONYMIZER',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1753207130/face_anonymiser_otbhjq.png',
-            description: `Real-time Face Blurring`,
-            points: [
-                'Captures input from the webcam and outputs a video stream with blurred faces in real time',
-            ],
-            technology: [
-                'Python',
-                'OpenCV',
-                'MediaPipe',
-                'Git',
-            ],
-            time: 'May 2025',
-            github: 'https://github.com/JaiminPatel345/face-anonymizer',
-        },
-        {
-            title: 'ABHINAVAM',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1746389403/placeholder-image_rkf7ej.png',
-            description: `Personalized social media platform tailored for artists and creative professionals.`,
-            points: [
-                'Built a **production-grade app** with a strong focus on **performance, efficiency, and security**.',
-                'Implemented **secure authentication** with **access and refresh tokens**.',
-                'Optimized data processing with **MongoDB aggregation pipelines**.',
-                'Created **responsive UI** with smooth animations and intuitive navigation.',
-            ],
-            technology: [
-                'TypeScript',
-                'React Native Expo',
-                'Node.js',
-                'MongoDB',
-                'Redux',
-                'Express.js',
-                'Redis',
-                'JWT',
-                'Cloudinary',
-                'Git',
-            ],
-            time: 'March - April 2025',
-            github: 'https://github.com/JaiminPatel345/Abhinavam',
-        },
-        {
-            title: 'WANDERLUST',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1746385580/Wanderlust_pp6xrp.png',
-            description: 'Travel & Accommodation Booking Platform',
-            points: [
-                'Full-stack web application where users can explore and book unique accommodations.',
-                'Features include a **beautiful UI**, search functionality, **pagination, MongoDB Aggregation**.',
-                '**Interactive Rive animations** in Login & Sign up pages [Try](https://wanderlust.jaimin-detroja.tech/login).',
-                'Implemented property owner dashboard with edit, delete and **Reset/Forgot Password link in Email** capabilities.',
-            ],
-            technology: [
-                'JavaScript',
-                'React',
-                'Node.js',
-                'MongoDB',
-                'OAuth2',
-                'Express.js',
-                'Tailwind CSS',
-                'Redis',
-                'Zustand',
-                'Rive',
-                'Cloudinary',
-                'Git',
-                'Azure',
-            ],
-            time: 'Aug - Dec 2023',
-            github: 'https://github.com/JaiminPatel345/wanderlust',
-            live: 'https://wanderlust.jaimin-detroja.tech/',
-        },
-        {
-            title: 'BARTER TALK',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1746385904/1cda5f27-d3df-4461-87ec-2053208c3270.png',
-            description: 'Real-time Chat & Video Calling Application',
-            points: [
-                'Developed a comprehensive communication platform with **text and video** capabilities.',
-                'Implemented **real-time** messaging with instant delivery confirmation.',
-                'Created secure authentication flow with **OAuth2 - Login with Google**.',
-                'Built **responsive UI** that adapts to various device sizes.',
-            ],
-            technology: [
-                'React',
-                'Node.js',
-                'MongoDB',
-                'Socket.io',
-                'Express.js',
-                'Redis',
-                'Tailwind CSS',
-                'Peer.js',
-                'OAuth2',
-                'Cloudinary',
-                'Git',
-                'Azure',
 
-            ],
-            time: 'Nov - Dec 2024',
-            github: 'https://github.com/JaiminPatel345/BarterTalk',
-            live: 'https://barter-talk.vercel.app/',
-        },
         {
-            title: 'LOCKSMITH',
-            image: 'assets/locksmith.png',
-            description: 'Secure Password Manager for Android & iOS',
+            title: 'COLLEGE MANAGEMENT SYSTEM',
+            image: 'assets/CMIS.png',
+            description: `A full-fledged College Management System with smart attendance, analytics, student records, and course management.`,
+            
             points: [
-                'Built a cross-platform mobile application for **securely storing** sensitive credentials.',
-                'Implemented **biometric authentication** for enhanced security.',
-                'Utilized native **encrypted storage** to protect user data.',
-                'Created intuitive UI for easy password management and retrieval.',
+                'Developed a **complete college management system** supporting student records, courses, attendance, and performance tracking.',
+                'Implemented a **smart attendance module** with daily/summary views, bulk marking, multi-filters, CSV export, and real-time updates.',
+                'Built **course & student management features** including dynamic forms, detail pages, and relational data structures.',
+                'Integrated **advanced analytics** such as attendance trends, performance charts, and auto-calculated percentages.',
+                'Created **visual indicators** with color-coded statuses, progress bars, badges, and responsive UI for clarity and usability.',
+                'Designed a **fully responsive, intuitive interface** optimized for administrators, faculty, and system operators.',
+                'Ensured **scalable architecture** with clean data flow, modular components, and reusable UI blocks.'
             ],
+
             technology: [
-                'React Native CLI',
-                'Redux',
-                'Nativewind',
-                'React Native Papers',
-                'Native Encrypted Storage',
-                'Native Biometrics',
-            ],
-            time: 'Dec 2024 - Jan 2025',
-            github: 'https://github.com/JaiminPatel345/locksmith',
-            apk: 'https://drive.google.com/drive/folders/1jk1cnW5aRTltLMa6XyVhvZ7VD845Gyrx',
-        },
-        {
-            title: 'HEALTH PIE',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1746388335/497cb203-d7a7-42bc-a47e-94b21fc61aa6.png',
-            description: 'Health Tracking & Doctor-Patient Connection Platform',
-            points: [
-                'Developed a comprehensive health management application for patients and doctors.',
-                'Created **personalized health** recommendations based on user goals and activities.',
-                'Implemented secure doctor-patient connection for **remote health monitoring**.',
-                'Built dashboard for **tracking daily activities and health metrics**.',
-            ],
-            technology: [
+                'React',
+                'TailwindCSS',
                 'Node.js',
                 'Express.js',
                 'MongoDB',
-                'EJS',
-                'Bootstrap',
-                'JWT',
-                'REST APIs',
-                'Cloudinary',
-                'Git',
+                'Chart.js',
+                'JavaScript',
+                'Git'
             ],
-            time: 'Aug - Sep 2024',
-            github: 'https://github.com/JaiminPatel345/Health-Pie',
-            // live: 'https://health-pie.onrender.com/',
+
+            time: 'Sept 2025',
+            github: 'https://github.com/IhitJoshi/College-Management-System'
         },
         {
-            title: 'GDGC BVM',
-            image: 'https://res.cloudinary.com/dm4xqk12g/image/upload/v1746386650/40aa35df-1fb5-4a65-925b-41f1055480a8.png',
-            description: 'Website for Google Developer Groups On Campus BVM',
+            title: 'EXCALIDRAW CLONE',
+            image: 'assets/excalidraw.png',
+            description: `A fully functional Excalidraw-style whiteboard for drawing, sketching, and exporting visuals.`,
+            
             points: [
-                'Designed and developed the **official website for GDGC BVM** as a Tech Gig member.',
-                'Created **immersive 3D animations** using **Three.js** for engaging user experience.',
-                'Built **responsive layout** that works flawlessly across all device sizes.',
+                'Implemented complete whiteboard functionality including shapes, freehand drawing, eraser, colors, and stroke customization.',
+                'Enabled drag-and-drop movement, object resizing, undo/redo actions, and smooth canvas interactions.',
+                'Integrated export options such as saving drawings as PNG/JPG and downloading JSON for data persistence.',
+                'Built on the Canvas API to support precise rendering, layering, and optimized drawing performance.',
+                'Designed a clean, responsive interface using TailwindCSS for an intuitive sketching experience.',
+                'Added real-time updates for tools, settings, and canvas state using lightweight, modular logic.',
             ],
+
             technology: [
+                'HTML',
+                'CSS',
+                'JavaScript',
+                'TypeScript',
+                'TailwindCSS',
+                'Canvas API',
+                'JSON',
+                'Git'
+            ],
+
+            time: 'Jun 2025',
+            github: 'https://github.com/IhitJoshi/ExcaliDraw_Clone',
+            live: 'https://graceful-concha-240748.netlify.app/'
+        },
+        {
+            title: 'AR TILE VISUALIZATION',
+            image: 'assets/AR.jpeg',
+            description: `A 24-hour hackathon project built for CodeArena 1.0, integrating AR technology with MERN Stack for immersive tile visualization.`,
+            
+            points: [
+                'Participated in the 24-hour CodeArena 1.0 Hackathon at Darshan University as part of team **Bug Busters**.',
+                'Worked on the **AR Tile Visualization** problem statement — the only team to tackle this innovative category.',
+                'Developed a functional prototype using **Unity**, **AR Foundation**, and the **MERN Stack** (MongoDB, Express, React, Node.js).',
+                'Built an immersive AR-based visualization app that connects real-world tile placement with interactive digital rendering.',
+                'Strengthened teamwork, rapid problem-solving, and technical decision-making under time constraints.',
+                'Gained hands-on experience integrating AR pipelines with full-stack systems for real-world usability.',
+            ],
+
+            technology: [
+                'Unity',
+                'AR Foundation',
+                'React',
+                'Node.js',
+                'Express.js',
+                'MongoDB',
+                'JavaScript',
+                'Git'
+            ],
+
+            time: 'July 2025',
+            github: 'https://github.com/DharmikGohil013/SnapSpace',
+            apk : 'https://drive.google.com/file/d/1zsj1cun8kFNHZcXjZ1zDxK2KNrNQGOaG/view' 
+        },
+                
+        {
+            title: 'SAFAINOVA',
+            image: 'assets/safainova.png',
+            description: `An AI-driven waste management system designed to automate classification, disposal, and analytics for dark store operations.`,
+
+            points: [
+                'Led a team to build **SafaiNova**, an AI-powered waste management system for dark store operations.',
+                'Integrated **AI-based scanning & classification** using barcode/QR detection and computer vision to automate waste identification.',
+                'Implemented **intelligent waste categorization**, distinguishing recyclable materials from expired or damaged products.',
+                'Developed an **automated disposal workflow** with optimized pickup routing using **Google Maps integration**.',
+                'Built a **real-time analytics dashboard** for waste trends, recycling efficiency, and cost-saving insights.',
+                'Enhanced sustainability by reducing landfill waste, improving compliance, and lowering operational expenditures.',
+                'Collaborated with a multidisciplinary team to merge **technology, automation, and environmental impact**.',
+            ],
+
+            technology: [
+                'React',
                 'Next.js',
                 'Tailwind CSS',
-                'Three.js',
-                'Framer Motion',
-                'Git',
+                'Bootstrap',
+                
+                'Node.js',
+                'Express.js',
+                'MongoDB',
+                'Firebase',
+                'REST API',
+
+                'TensorFlow',
+
+                'Git'
             ],
-            time: 'Nov 2024',
-            github: 'https://github.com/GDG-On-Campus-BVM/GDG-On-Campus-BVM-Website',
-            live: 'https://gdg-on-campus-bvm.vercel.app',
+
+            time: 'Mar 2025',
+            github: 'https://github.com/DharmikGohil013/Sfainova_Hackron',
+        },
+        {
+            title: 'AYURSUTRA',
+            image: 'assets/ayursutra.png',
+            description: `A Panchakarma patient management & therapy scheduling system built for SIH 2025, featuring automated planning, AI analytics, and multi-role access.`,
+
+            points: [
+                'Developed **AyurSutra** for Smart India Hackathon 2025 – a complete Panchakarma therapy management and scheduling platform.',
+                'Implemented a **Therapy-Aware Scheduler** that maps Panchakarma sequences (Snehana → Swedana → Vamana) without conflicts.',
+                'Integrated **AI-powered feedback analytics** to convert free-text notes into actionable therapy adjustments.',
+                'Designed a **hybrid Chikitsa model** combining in-clinic sessions with secure teleconsultations.',
+                'Added **progress dashboards** to visualize therapy improvements, patient adherence, and recovery trends.',
+                'Implemented **multilingual UX**, low-bandwidth optimization, and accessible design for rural adoption.',
+                'Included **clinic & practitioner authenticity verification** using OCR and automated document checks.',
+                'Developed **role-based panels** for Patients, Practitioners, and Admins with real-time monitoring.',
+            ],
+
+            technology: [
+                'React',
+                'Next.js',
+                'Tailwind CSS',
+                'Bootstrap',
+
+                'Node.js',
+                'Express.js',
+                'MongoDB',
+                'Firebase',
+                'REST APIs',
+
+                'TensorFlow',
+                'BERT',
+                'YOLOv5',
+                'Mask R-CNN',
+                'OCR',
+
+                'WebSockets',
+                'JWT',
+                'OAuth 2.0',
+                'Git'
+            ],
+
+            time: 'oct 2025',
+            github: 'https://github.com/IhitJoshi/AyurSutra',     
+            live: 'https://hackathonprototype.vercel.app/'
+        },
+        {
+            title: 'PERSONAL PORTFOLIO WEBSITE',
+            image: 'assets/portfolio.png',
+            description: `A fully animated personal portfolio designed to showcase projects, skills, and experience with smooth visuals and a modern UI.`,
+            
+            points: [
+                'Built a fully animated homepage with **smooth scroll interactions**, GSAP effects, and Framer Motion transitions.',
+                'Developed a **terminal-style introduction** to create an interactive and unique first impression.',
+                'Designed **interactive project cards**, skills section, about page, and a fully functional contact form.',
+                'Implemented **dark/light mode** using theme management for an accessible, user-friendly experience.',
+                'Added **scroll-triggered animations** to improve engagement and visual flow across all sections.',
+                'Ensured **responsive design** across devices with clean UI, optimized components, and TailwindCSS layout systems.',
+                'Showcased professional projects and achievements in a structured, visually appealing format.',
+            ],
+
+            technology: [
+                'React',
+                'TailwindCSS',
+                'JavaScript',
+                'JSX',
+                'JSON',
+                'Yarn',
+                'Git'
+            ],
+
+            time: 'Dec 2025',
+            github: 'https://github.com/IhitJoshi/My_Portfolio', 
+            live: ''     
         },
     ];
 

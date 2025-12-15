@@ -44,7 +44,7 @@ const Home = () => {
         <div className="hidden md:absolute md:flex items-center gap-3  bottom-8 md:bottom-12 right-8 md:right-12 z-10">
           <IconMapPin className="w-6 h-6 text-emerald-500 dark:text-emerald-400" />
           <p className="text-lg md:text-xl font-medium text-neutral-800 dark:text-neutral-200 bg-white/90 dark:bg-neutral-900/90 px-4 py-2 rounded-full backdrop-blur-sm shadow-sm">
-            Anand, India
+          Anand, India
           </p>
         </div>
 

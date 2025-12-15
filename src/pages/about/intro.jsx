@@ -26,24 +26,34 @@ export const Intro = () => {
           className="space-y-6 pl-5 md:pl-10"
         >
           <ul className="list-disc text-neutral-700 dark:text-neutral-200 text-lg md:text-xl space-y-4">
+
             <li>
-              Full Stack <strong className="text-blue-600 dark:text-blue-400">JavaScript Developer</strong>
+              Frontend <strong className="text-blue-600 dark:text-blue-400">Developer</strong> & UI/UX Designer
             </li>
+
             <li>
-              <strong className="text-blue-600 dark:text-blue-400">Machine Learning</strong> Enthusiast
+              Creative Coder who loves building smooth and expressive user experiences
             </li>
+
             <li>
-              Knight in LeetCode
+              Exploring <strong className="text-blue-600 dark:text-blue-400">DevOps</strong> & modern design systems
             </li>
+
             <li>
-              Open Source Contributor (beginner)
+              2027 Passout of <strong className="text-blue-600 dark:text-blue-400">Computer Science</strong> from GCET, Anand
             </li>
+
             <li>
-              2026 Passout of <strong className="text-blue-600 dark:text-blue-400">Computer Science Student</strong> from BVM, Anand, Gujarat
+              Wanna Chess Match?{" "}
+              <a 
+                href={'https://www.chess.com/member/ihitjoshi'} 
+                target={'_blank'} 
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                Chess.com
+              </a>
             </li>
-            <li>
-              Wanna Chess Match? <a href={'https://www.chess.com/member/jaimindetroja'} target={'_blank'} className="text-blue-600 dark:text-blue-400 hover:underline">Chess.com</a>
-            </li>
+
           </ul>
         </motion.div>
       </div>

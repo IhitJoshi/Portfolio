@@ -3,91 +3,157 @@ import {motion} from 'framer-motion';
 
 const Achievements = () => {
   const achievements = [
+  {
+  title: 'IIT Kharagpur',
+  date: 'May – July 2025',
+  icon: 'Code',
+  iconColor: '#4CAF50',
+  link: 'https://drive.google.com/file/d/1XQODg6ZFut2JfUcHdhgWF9LNt_oy64m1/view?usp=sharing',
+  btnText: 'View Certificate',
+  description: [
+    'Completed a 2-month Web Development program with IIT Kharagpur’s Kshitij Fest.',
+    'Completed a 30-day internship at EdiGlobe, applying skills to real projects.',
+    'Gained hands-on experience in full-stack development and team collaboration.',
+  ],
+},
+
+
     {
-      title: 'ODOO X Mindbend Hackathon',
-      date: '5-6 April 2025',
-      icon: 'Code',
-      iconColor: '#4CAF50',
-      link: 'https://drive.google.com/file/d/1SFpUTEYaRUykIgiGRf4PgGUB4NVPcU3B/view?usp=sharing',
-      btnText: 'View Certificate',
-      description: [
-        'Qualified as finalist in prestigious offline ODOO X Mindbend Hackathon at SVNIT',
-        'Developed innovative solutions under time constraints',
-      ],
-    },
-    {
-      title: 'SIH 2024',
-      date: 'Dec 2024',
+      title: 'CodeArena 1.0 – 24 Hours Hackathon',
+      date: '19-20 July 2025',
       icon: 'Brain',
       iconColor: '#34bba9',
-      link: 'https://drive.google.com/file/d/1SJkA4exajP7UOF0JQhoJ3NB4yD2tkLNP/view?usp=sharing',
-      btnText: 'View Details',
+      link: 'https://drive.google.com/file/d/1USeECL-AVtHH0hvIOBVUMAqt_kK1Y_eW/view?usp=sharing',
+      btnText: 'View Certificate',
       description: [
-        'Shortlist name in waiting list',
-        '7th out of top 500 teams across India',
+        'Team Leader of Bug Busters at CodeArena 1.0, Darshan University.',
+        'Built an AR-based visualization solution using Unity, AR Foundation & MERN Stack.',
       ],
     },
+
+    // {
+    //   title: 'LeetCode ',
+    //   date: 'Sep 15, 2024',
+    //   icon: 'Code',
+    //   iconColor: '#FF9800',
+    //   link: 'https://drive.google.com/file/d/1x0bW_Bsl_-ztRXMkPtTkXwH-DyF67njf/view?usp=sharing',
+    //   btnText: 'View Details',
+    //   description: [
+    //     'LeetCode Weekly Contest 415',
+    //     'Ranked 1644 out of 33,921 global participants',
+    //   ],
+    // },
+
     {
-      title: 'LeetCode ',
-      date: 'Sep 15, 2024',
+      title: 'HackHazards ’25 – Global Hackathon',
+      date: '11–27 April 2025',
       icon: 'Code',
       iconColor: '#FF9800',
-      link: 'https://drive.google.com/file/d/1x0bW_Bsl_-ztRXMkPtTkXwH-DyF67njf/view?usp=sharing',
-      btnText: 'View Details',
+      link: 'https://drive.google.com/file/d/1J9IY9s1nw75gmjYqp8qCRFGZTpzShL01/view?usp=sharing',
+      btnText: 'View Certificate',
       description: [
-        'LeetCode Weekly Contest 415',
-        'Ranked 1644 out of 33,921 global participants',
+        'Participated in the world’s largest community-run hackathon.',
+        'Collaborated with Team Bug Buster on innovative builds.',
+        'Gained global exposure and hands-on hackathon experience.',
       ],
     },
+
+
+    // {
+    //   title: 'Byte Quest',
+    //   date: 'Feb 2024',
+    //   icon: 'Trophy',
+    //   iconColor: '#FFD700',
+    //   link: 'https://drive.google.com/file/d/1jfLeezAQl4oSY_po21j33BQT_uEHclSa/view?usp=sharing',
+    //   btnText: 'View Certificate',
+    //   description: [
+    //     'Secured 1rd position among all year students',
+    //     'Solved complex algorithmic challenges',
+    //     'Recognized for optimal solution approaches',
+    //   ],
+    // },
     {
-      title: 'Byte Quest',
-      date: 'Feb 2024',
+      title: 'IIT Kharagpur × EdiGlobe – Web Development Program',
+      date: 'May - June 2025',
       icon: 'Trophy',
       iconColor: '#FFD700',
-      link: 'https://drive.google.com/file/d/1jfLeezAQl4oSY_po21j33BQT_uEHclSa/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1VDFNw11avCVKbDSXpWZzckcTqJXYlsxt/view?usp=sharing',
       btnText: 'View Certificate',
       description: [
-        'Secured 1rd position among all year students',
-        'Solved complex algorithmic challenges',
-        'Recognized for optimal solution approaches',
+        'Completed a 2-month Web Development course by IIT Kharagpur’s Kshitij faculty.',
+        'Gained practical experience through a 30-day internship at EdiGlobe.',
+        'Developed real-world skills in full-stack development and teamwork.',
       ],
     },
+
+    // {
+    //   title: 'GeeksForGeeks',
+    //   date: '2023',
+    //   icon: 'Award',
+    //   iconColor: '#e64d33',
+    //   link: 'https://www.geeksforgeeks.org/user/officialj9h58',
+    //   btnText: 'View GFG Profile',
+    //   description: [
+    //     'Weekly Coding Contest 135 | 19th rank',
+    //     'Weekly Coding Contest 129 | 53rd rank',
+    //   ],
+    // },
+
     {
-      title: 'GeeksForGeeks',
-      date: '2023',
+      title: 'Hackron – 24 Hour Hackathon',
+      date: '5–6 March 2025',
       icon: 'Award',
       iconColor: '#e64d33',
-      link: 'https://www.geeksforgeeks.org/user/officialj9h58',
-      btnText: 'View GFG Profile',
-      description: [
-        'Weekly Coding Contest 135 | 19th rank',
-        'Weekly Coding Contest 129 | 53rd rank',
-      ],
-    },
-    {
-      title: 'Code Ramzat',
-      date: 'Oct 2023',
-      icon: 'Crown',
-      iconColor: '#a252d9',
-      link: 'https://drive.google.com/file/d/1XjM_b_F_J35P0Y43_Lsgko8gSfZVP3SW/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1FPXsNBGWv5Pg6FoNrO1KgxJFXzn7YR5S/view?usp=sharing',
       btnText: 'View Certificate',
       description: [
-        'Secured 3rd position among all year students',
-        'DSA competition on CodeChef ',
+        'Participated in Hackron, a 24-hour hackathon at Newton School of Technology, Pune.',
+        'Built a waste management system with AI integration alongside Team Bug Buster.',
+        'Gained hands-on experience in teamwork, pressure handling, and rapid development.',
       ],
     },
+
+
+    // {
+    //   title: 'Code Ramzat',
+    //   date: 'Oct 2023',
+    //   icon: 'Crown',
+    //   iconColor: '#a252d9',
+    //   link: 'https://drive.google.com/file/d/1XjM_b_F_J35P0Y43_Lsgko8gSfZVP3SW/view?usp=sharing',
+    //   btnText: 'View Certificate',
+    //   description: [
+    //     'Secured 3rd position among all year students',
+    //     'DSA competition on CodeChef ',
+    //   ],
+    // },
+
     {
-      title: 'JEE Advanced',
-      date: '2022',
-      icon: 'Star',
-      iconColor: '#FFC107',
-      link: 'https://drive.google.com/file/d/118_UHHGKqQ_2aQP452ZRDp860UVqE_P1/view?usp=sharing',
-      btnText: 'View Details',
+      title: 'Jain University – National Level Hackathon',
+      date: '24 April 2025',
+      icon: 'Crown',
+      iconColor: '#a252d9',
+      link: 'https://drive.google.com/file/d/1Gi3GTztny10fNJVgmi-pHR-5FkX_sfFO/view?usp=sharing',
+      btnText: 'View Certificate',
       description: [
-        'Cleared JEE Advanced 2022',
-        'AIR 28,063',
+        'Selected for Round 1 of a national-level hackathon hosted by Jain University.',
+        'Explored real-world problem solving with innovative approaches.',
+        'Could not continue due to academic priorities.',
       ],
     },
+
+
+    // {
+    //   title: 'JEE Advanced',
+    //   date: '2022',
+    //   icon: 'Star',
+    //   iconColor: '#FFC107',
+    //   link: 'https://drive.google.com/file/d/118_UHHGKqQ_2aQP452ZRDp860UVqE_P1/view?usp=sharing',
+    //   btnText: 'View Details',
+    //   description: [
+    //     'Cleared JEE Advanced 2022',
+    //     'AIR 28,063',
+    //   ],
+    // },
   ];
 
   return (

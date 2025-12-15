@@ -12,9 +12,9 @@ const skills = {
   ],
   backend: [
     {name: 'Node.js'},
-    {name: 'Express.js'},
-    {name: 'Redis'},
-    {name: 'Socket.io'},
+    // {name: 'Express.js'},
+    // {name: 'Redis'},
+    // {name: 'Socket.io'},
   ],
   frontend: [
     {name: 'React.js'},
@@ -24,17 +24,17 @@ const skills = {
   ],
   database: [
     {name: 'MongoDB'},
-    {name: 'PostgreSQL'},
+    // {name: 'PostgreSQL'},
   ],
   devops: [
-    {name: 'Docker'},
-    {name: 'Azure'},
+    // {name: 'Docker'},
+    // {name: 'Azure'},
     {name: 'Git'},
   ],
   ml: [
-    {name: 'Numpy'},
-    {name: 'Pandas'},
-    {name: 'OpenCV'},
+    // {name: 'Numpy'},
+    // {name: 'Pandas'},
+    // {name: 'OpenCV'},
     // {name: 'TensorFlow'},
   ],
 };
@@ -135,11 +135,11 @@ const SkillSet = () => {
             skills={skills.devops}
             borderColor="border-yellow-500"
           />
-          <SkillCategory
+          {/* <SkillCategory
             title="Machine Learning"
             skills={skills.ml}
             borderColor="border-green-500"
-          />
+          /> */}
         </div>
       </div>
     </div>
