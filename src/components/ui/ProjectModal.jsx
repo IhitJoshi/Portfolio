@@ -24,14 +24,13 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="fixed inset-4 md:inset-10 z-50 overflow-y-auto"
+            className="fixed inset-4 md:inset-10 z-50 flex items-center justify-center"
           >
-            <div className="min-h-full flex items-center justify-center p-4">
-              <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-xl max-w-6xl w-full max-h-[90vh] overflow-y-auto border border-neutral-200 dark:border-neutral-700">
+            <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-xl max-w-6xl w-full max-h-[90vh] overflow-y-auto border border-neutral-200 dark:border-neutral-700 relative">
                 {/* Close button */}
                 <button
                   onClick={onClose}
-                  className="absolute right-6 top-6 p-2 rounded-full bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors"
+                  className="sticky top-4 float-right mr-4 mt-4 p-2 rounded-full bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors z-10"
                 >
                   <IconX className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
                 </button>
@@ -145,7 +144,6 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                   </div>
                 </div>
               </div>
-            </div>
           </motion.div>
         </>
       )}
