@@ -17,7 +17,7 @@ export const FloatingDock = ({items, desktopClassName, mobileClassName}) => {
 
 const FloatingDockMobile = ({items, className}) => {
   const [open, setOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = useState('#home');
   const {toggleTheme} = useTheme();
 
   useEffect(() => {
@@ -31,8 +31,11 @@ const FloatingDockMobile = ({items, className}) => {
         }
         return false;
       });
-      setActiveSection(currentSection ? '#' + currentSection : '');
+      setActiveSection(currentSection ? '#' + currentSection : '#home');
     };
+
+    // Call on initial load
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -127,7 +130,7 @@ const FloatingDockMobile = ({items, className}) => {
 };
 
 const FloatingDockDesktop = ({items, className}) => {
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = useState('#home');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -140,8 +143,11 @@ const FloatingDockDesktop = ({items, className}) => {
         }
         return false;
       });
-      setActiveSection(currentSection ? '#' + currentSection : '');
+      setActiveSection(currentSection ? '#' + currentSection : '#home');
     };
+
+    // Call on initial load
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);

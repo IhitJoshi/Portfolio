@@ -27,7 +27,7 @@ const Connect = () => {
         {
             name: 'Resume',
             icon: <IconFileDescription className="w-6 h-6"/>,
-            link: '',
+            link: '/Ihit Joshi Resume.pdf',
             value: 'My Resume'
         }
     ];

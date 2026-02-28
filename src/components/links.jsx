@@ -49,7 +49,7 @@ export function Navbar() {
               className="h-full w-full text-neutral-600 dark:text-neutral-300"/>
       ),
       target: '_blank',
-      href: '',
+      href: '/Ihit Joshi Resume.pdf',
     },
   ];
 
