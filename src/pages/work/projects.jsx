@@ -54,6 +54,7 @@ const Projects = () => {
             ],
             time: 'Sept 2025',
             github: 'https://github.com/IhitJoshi/Search_Engine',
+            live: 'https://stock-engine.vercel.app/',
         },
 
         {
@@ -222,35 +223,6 @@ const Projects = () => {
             time: 'oct 2025',
             github: 'https://github.com/IhitJoshi/AyurSutra',     
             live: 'https://hackathonprototype.vercel.app/'
-        },
-        {
-            title: 'PERSONAL PORTFOLIO WEBSITE',
-            image: 'assets/portfolio.png',
-            description: `A fully animated personal portfolio designed to showcase projects, skills, and experience with smooth visuals and a modern UI.`,
-            
-            points: [
-                'Built a fully animated homepage with **smooth scroll interactions**, GSAP effects, and Framer Motion transitions.',
-                'Developed a **terminal-style introduction** to create an interactive and unique first impression.',
-                'Designed **interactive project cards**, skills section, about page, and a fully functional contact form.',
-                'Implemented **dark/light mode** using theme management for an accessible, user-friendly experience.',
-                'Added **scroll-triggered animations** to improve engagement and visual flow across all sections.',
-                'Ensured **responsive design** across devices with clean UI, optimized components, and TailwindCSS layout systems.',
-                'Showcased professional projects and achievements in a structured, visually appealing format.',
-            ],
-
-            technology: [
-                'React',
-                'TailwindCSS',
-                'JavaScript',
-                'JSX',
-                'JSON',
-                'Yarn',
-                'Git'
-            ],
-
-            time: 'Dec 2025',
-            github: 'https://github.com/IhitJoshi/My_Portfolio', 
-            live: ''     
         },
     ];
 
