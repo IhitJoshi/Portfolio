@@ -112,7 +112,9 @@ export const commands = {
         <p>• Created structured chapters and scenes to allow smooth reading flow and emotional impact.</p>
         <p>• <a href="https://github.com/IhitJoshi/MyStory"
                 target="_blank"
-                rel="noopener noreferrer">GitHub</a></p>
+                rel="noopener noreferrer">GitHub</a> | <a href="https://my-story-smoky.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer">Live Demo</a></p>
         <br/>
 
         <p>Type <strong style={{color: 'var(--highlight-color)'}}>projects_all</strong> to see all projects</p>
@@ -137,7 +139,7 @@ export const commands = {
         <p><strong style={{color: 'var(--highlight-color)'}}>MY STORY</strong> | Personal Storytelling Platform | <em>Nov 2025</em></p>
         <p>• A narrative-driven website sharing personal experiences and life lessons.</p>
         <p>• Minimal, expressive UI crafted for emotional storytelling and smooth reading flow.</p>
-        <p>• <a href="https://github.com/IhitJoshi/MyStory" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>• <a href="https://github.com/IhitJoshi/MyStory" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://my-story-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
         <br/>
 
         {/* STOCK SEARCH ENGINE */}

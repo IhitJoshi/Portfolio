@@ -30,7 +30,7 @@ const Projects = () => {
             time: 'Nov 2025',
 
             github: 'https://github.com/IhitJoshi/MyStory',
-            live: '',
+            live: 'https://my-story-smoky.vercel.app/',
         },
         {
             title: 'Stock Engine',
